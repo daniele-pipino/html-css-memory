@@ -1,0 +1,21 @@
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body{
+    max-width: 70%;
+    background-color: rgb(88, 152, 177);
+    margin: 20px auto;
+    font-family: 'Nerko One', cursive;
+}
+/* header */
+
+header h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+/* main */
