@@ -60,7 +60,147 @@ header h1{
     display: block;
     border-radius:15px;
 } 
+/* card 2 */
+.row .card-2{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin: 10px;
+} 
 
+.row .card-2 .card-text{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.row .card-2:hover .card-text{
+    background-image: url(../img/sottomarino.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
+/* card 3 */
+.row .card-3{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin: 10px;
+} 
+
+.row .card-3 .card-text{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.row .card-3:hover .card-text{
+    background-image: url(../img/mongolfiera.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
+/* card 4 */
+.row .card-4{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin: 10px;
+} 
+
+.row .card-4 .card-text{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.row .card-4:hover .card-text{
+    background-image: url(../img/camper.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
+/* card 5 */
+.row .card-5{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin: 10px;
+} 
+
+.row .card-5 .card-text{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.row .card-5:hover .card-text{
+    background-image: url(../img/bicicletta.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
+/* card 6 */
+.row .card-6{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    margin: 10px;
+} 
+
+.row .card-6 .card-text{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.row .card-6:hover .card-text{
+    background-image: url(../img/trattore.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
+/* carta fissa */
 .fixed-card{
     width: calc(100% / 4 - 20px); 
     height: 350px;
@@ -72,6 +212,7 @@ header h1{
     background-repeat: no-repeat;
     margin: 10px;
 }
+
 .fixed-card .card-text{
     font-size: 50px;
     text-align: center;
@@ -79,7 +220,6 @@ header h1{
     padding-bottom: 40px;
     color: khaki;
 }
-
 
 
 
