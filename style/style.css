@@ -53,11 +53,11 @@ header h1{
     font-size: 50px;
     text-align: center;
     padding-top: 250px;
-    visibility: visible;
+    display: none;
 }
 
 .card .card-text h2:hover{
-    visibility: visible;
+    display:initial;
 }
 
 .fixed-card{
