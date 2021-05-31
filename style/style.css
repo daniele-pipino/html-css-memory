@@ -48,33 +48,37 @@ header h1{
     background-position:center;
     background-repeat: no-repeat;
 } 
-.fixed-card{
-    background-image: url(../img/trattore.png);
-    width: calc(100% / 4 - 20px); 
-    height: 350px;
-    border-radius: 15px;
-    background-color: white;
-    background-size: 70%;
-    background-position:center;
-    background-repeat: no-repeat;
-    margin: 10px;
-}
 
 .card .card-text h2{
     font-size: 50px;
     text-align: center;
     padding-top: 250px;
-    visibility: hidden;
+    visibility: visible;
 }
+
+.card .card-text h2:hover{
+    visibility: visible;
+}
+
+.fixed-card{
+    width: calc(100% / 4 - 20px); 
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+    background-size: 70%;
+    background-image: url(../img/trattore.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
 .fixed-card .card-text h2{
     font-size: 50px;
     text-align: center;
     padding-top: 250px;
     color: khaki;
 }
-.card .card-text h2:hover{
-    visibility: visible;
-}
+
 
 
 
