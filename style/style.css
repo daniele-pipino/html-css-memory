@@ -28,6 +28,7 @@ header h1{
     color: white;
 }
 /* main */
+
 .container{
     margin-top: 50px;
 }
@@ -42,23 +43,23 @@ header h1{
     margin: 10px;
 } 
 
-.row .card:hover{
-    background-image: url(../img/nave.png);
-    background-size: 70%;
-    background-position:center;
-    background-repeat: no-repeat;
-} 
-
-.card .card-text h2{
+.row .card .card-text{
     font-size: 50px;
     text-align: center;
     padding-top: 250px;
+    padding-bottom: 40px;
     display: none;
 }
 
-.card .card-text h2:hover{
-    display:initial;
-}
+.row .card:hover .card-text{
+    background-image: url(../img/nave.png);
+    background-color: white;
+    background-size: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius:15px;
+} 
 
 .fixed-card{
     width: calc(100% / 4 - 20px); 
@@ -71,13 +72,15 @@ header h1{
     background-repeat: no-repeat;
     margin: 10px;
 }
-
-.fixed-card .card-text h2{
+.fixed-card .card-text{
     font-size: 50px;
     text-align: center;
     padding-top: 250px;
+    padding-bottom: 40px;
     color: khaki;
 }
+
+
 
 
 
